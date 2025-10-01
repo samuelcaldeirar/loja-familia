@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>JS Tintas</title>
+</head>
+
+<body>
+    <div class="header" id="inicio">
+        <div class="buttons">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#showrun">Showrun</a>
+            <a href="#contato">Contate-nos</a>
+        </div>
+            <div class="img">
+                <img src="assets/bg/bg-head.png" alt="banner">
+            </div>
+        </div>
+
+        <div class="sobre" id="sobre">
+            <div class="box-left">
+                <h1>JS TINTAS</h1>
+                <p>
+                    Na JS Tintas, transformamos sua paixão por carros em acabamentos perfeitos. Oferecemos tintas e complementos automotivos da mais alta qualidade, garantindo beleza, durabilidade e proteção para seu veículo.
+                </p>
+
+                <h2>Nossa Missão</h2>
+                <p>
+                    Somos parceiros de oficinas, pintores e entusiastas, comprometidos com a inovação e o atendimento de excelência. Nossa meta é fornecer não apenas produtos, mas soluções completas que garantem a sua total satisfação em cada projeto.
+                </p>
+
+                <h2>Nossos Diferenciais</h2>
+                <p>
+                    Contamos com um sistema tintométrico de última geração para a preparação de cores precisas, além de uma vasta gama de produtos como vernizes, primers, massas e equipamentos para pintura. Nossa equipe está sempre pronta para oferecer consultoria técnica e ajudar você a escolher o material ideal para suas necessidades.
+                </p>
+
+                <p>
+                    <strong>Venha nos visitar e descubra a qualidade e a tecnologia que a JS Tintas pode oferecer!</strong>
+                </p>
+                <img src="assets/bg/carro.png" alt="carro fundo">
+            </div>
+            <div class="box-right">
+                    <img src="assets/loja/fachada.png" alt="fachada da loja">
+                    <img src="assets/loja/loja.jpg" alt="balcão da loja">
+            </div>
+        </div>
+
+
+        <div class="products" id="produtos">
+           <h1>CONHEÇA NOSSOS PRODUTOS.</h1>
+               <div class="card">
+                   <img src="assets/produtos/tinta-poliester-900ml-lazzuril.png" alt="tinta poliester">
+                   <p>TINTA AUTOMOTIVA</p>
+               </div>
+               <div class="card">
+                   <img src="assets/produtos/diluente_.png" alt="diluente pu">
+                   <p>DILUENTE PU</p>
+               </div>
+               <div class="card">
+                   <img src="assets/produtos/image_690.jpg" alt="massa poliester">
+                   <p>MASSA POLIESTER</p>
+               </div>
+               <div class="card">
+                   <img src="assets/produtos/primer_pu.jpg" alt="primer pu">
+                   <p>PRIMER PU</p>
+               </div>
+                <div class="card">
+                   <img src="assets/produtos/batida_de_pedra.webp" alt="batida de pedra">
+                   <p>BATIDA DE PEDRA</p>
+                </div>
+                <div class="card">
+                   <img src="assets/produtos/wash_primer.webp" alt="wash primer">
+                   <p>WASH PRIMER</p>
+                </div>
+            <h2>E MUITO MAIS...</h2>
+        </div>
+
+        <div class="showrun" id="showrun">
+            <img src="assets/img/370z branco.png" alt="carro" class="carro">
+            
+            <div class="buttonCar">
+                <button class="active" data-color="branco" onclick="mudarCor('branco')">Branco</button>
+             <button data-color="vermelho" onclick="mudarCor('vermelho')">Vermelho</button>
+                <button data-color="preto" onclick="mudarCor('preto')">Preto</button>
+                <button data-color="azul" onclick="mudarCor('azul')">Azul</button>
+                <button data-color="amarelo" onclick="mudarCor('amarelo')">Amarelo</button>
+            </div>
+        </div>
+        <div class="rodape" id="contato">
+            <div class="infos">
+                <div class="atendimento">
+                    <h2>Atendimento</h2>
+                    <a href="tel:+5531992231076" class="a">(31) 99223-1076</a>
+                    <a href="tel:+5531993117476" class="a">(31) 99311-7476</a>
+                </div>
+                <div class="email">
+                    <h2>E-mail</h2>
+                    <a href="mailto:jstintasautomotivas@gmail.com" class="a">jstintasautomotivas@gmail.com</a>
+                </div>
+                <div class="horario">
+                    <h2>Horário de atendimento</h2>
+                    <p>Segunda a Sábado das 8h as 17h30</p>
+                </div>
+                <div class="local">
+                    <div class="local-info">
+                        <h2>JS Tintas e Complementos Automotivos</h2>
+                        <p>Rua Icó, 277 - Saudade, Belo Horizonte - MG</p>
+                    </div>
+                </div>
+            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.1826959550904!2d-43.90345772477306!3d-19.91670458146874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69bf0908a8e09%3A0x7fccf7b6da1f0f83!2sJS%20TINTAS%20E%20COMPLEMENTOS%20AUTOMOTIVOS!5e0!3m2!1spt-BR!2sbr!4v1759333146702!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+        </div>
+
+        <div class="dev">
+            <h4>Desenvolvido com <img src="assets/bg/coracao.png" alt="coração" class="coracao"> por Samuel Caldeira.</h4>
+        </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
