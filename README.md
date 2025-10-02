@@ -1,6 +1,6 @@
 # loja-familia
 
-== English Ver. ==
+== English Ver. == <br>
 While returning to my programming studies, I had the idea of creating this website as a way to test my knowledge and also to show my family what I’ve been studying for so many days.
 
 It’s a simple website: I used only HTML, CSS, and a small amount of JavaScript. With the help of an AI, I created the welcome banner (unfortunately, I don’t have much artistic skill).
@@ -13,7 +13,7 @@ Who knows, maybe I’ll continue and create a catalog page. But for now, I just 
 
 <img width="1841" height="901" alt="image" src="https://github.com/user-attachments/assets/9ee859ba-12f2-40c2-b8c7-8b171345abee" />
 
-== Portuguese Ver. ==
+== Portuguese Ver. == <br>
 Enquanto eu retomava meus estudos de programação, tive a ideia de criar este site como uma forma de testar meus conhecimentos e também mostrar à minha família no que eu estive me dedicando por tantos dias.
 
 É um site simples: usei apenas HTML, CSS e uma pequena quantidade de JavaScript. Com a ajuda de uma IA, criei o banner de boas-vindas (infelizmente, não tenho muita habilidade artística).
